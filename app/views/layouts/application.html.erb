@@ -10,6 +10,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+    <ul class="nav">
+    <li class="nav-item">
+      <a class="Home" href="<%= articles_path %>">Home</a>
+    </li>
+    </div>
+
+    <div class = "container main">
+      <%= yield %>
+    </div>
   </body>
 </html>
